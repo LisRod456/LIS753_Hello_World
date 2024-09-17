@@ -1,0 +1,21 @@
+h1{
+    color: white;
+    background-color: #E69BBC;
+    font-family: Lucida;
+    font-style: italic;
+    text-align: center;
+}
+body {
+    background-color: #F9E5EE;
+    color: black;
+    font-family: Lucida;
+    font-style: italic;
+    text-align: center;
+}
+figure img{
+    width: 80%;
+    height: auto;
+    border: 2px solid white;
+    border-style: dotted;
+    padding: 5px;
+}
