@@ -12,7 +12,7 @@ p {
     font-style: italic;
     text-align: center;
 }
-figure img{
+article figure img{
     width: 80%;
     height: auto;
     border: 2px solid white;
