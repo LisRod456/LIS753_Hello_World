@@ -21,7 +21,8 @@ article figure img{
 }
 a{
     font-weight: bold;
-    color: #742F91;
+    color: white;
+    background-color:#F9E5EE;
 }
 ul li a{
 text-decoration: none;
@@ -30,7 +31,7 @@ ul li a:hover{
     text-decoration: underline;
     border-bottom: 3px solid #E69BBC;
 }
-nav ul{
+ul{
     list-style: none;
     display: flex;
     justify-content: center;
