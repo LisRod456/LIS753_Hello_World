@@ -16,10 +16,10 @@ p{
 article figure img{
     width: 400px;
     height: auto;
-    border: 2px solid white;
+    border: 5px solid white;
     border-style: dotted;
     background-color:#F9E5EE;
-    padding: 5px;
+    padding: 10px;
 }
 a{
     font-weight: bold;
