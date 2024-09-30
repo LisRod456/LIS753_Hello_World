@@ -4,6 +4,7 @@ h1{
     font-family: Lucida;
     font-style: italic;
     text-align: center;
+    font-size: 20pt;
 }
 p{
     background-color: #F9E5EE;
@@ -13,7 +14,7 @@ p{
     text-align: center;
 }
 article figure img{
-    width: 80%;
+    width: 600px;
     height: auto;
     border: 2px solid white;
     border-style: dotted;
@@ -22,10 +23,12 @@ article figure img{
 a{
     font-weight: bold;
     color: white;
-    background-color:#F9E5EE;
+    background-color: #E69BBC;
 }
 ul li a{
 text-decoration: none;
+font-size: 14pt;
+font-weight: bold;
 }
 ul li a:hover{
     text-decoration: underline;
@@ -35,4 +38,5 @@ ul{
     list-style: none;
     display: flex;
     justify-content: center;
+    gap: 20px;
 }
