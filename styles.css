@@ -12,13 +12,14 @@ p{
     font-family: Lucida;
     font-style: italic;
     text-align: center;
+    font-size: 14pt;
 }
 article figure img{
     width: 400px;
     height: auto;
     border: 5px solid white;
     border-style: dotted;
-    background-color:#F9E5EE;
+    background-color:#eb96bb;
     padding: 10px;
 }
 a{
