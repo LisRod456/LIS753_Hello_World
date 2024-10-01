@@ -1,6 +1,6 @@
 h1{
     color: white;
-    background-color: #E69BBC;
+    background-color: #d44986;
     font-family: Lucida;
     font-style: italic;
     text-align: center;
@@ -24,18 +24,18 @@ article figure img{
 a{
     font-weight: bold;
     color: white;
-    background-color: #E69BBC;
+    background-color: #d44986;
 }
 ul li a{
     text-decoration: none;
     font-size: 20pt;
     font-weight: bold;
-    border-left: 1px solid #E69BBC;
-    border-right: 1px solid #E69BBC;
+    border-left: 1px solid #d44986;
+    border-right: 1px solid #d44986;
 }
 ul li a:hover{
     text-decoration: underline;
-    border-bottom: 3px solid #E69BBC;
+    border-bottom: 3px solid #d44986;
 }
 ul{
     list-style: none;
