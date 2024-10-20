@@ -6,9 +6,12 @@ article figure img{
     margin-top: 40px;
     margin-bottom: 40px;
     justify-content: center;
+    border-top: #3C7B19;
+    border-bottom:#3C7B19;
+    border: 5px;
 }
 h1{
-    justify-content: center;
+    text-align: center;
     font-family: Helvetica;
     font-size: 24pt;
     color: white;
@@ -20,15 +23,16 @@ h2{
     font-size: 16pt;
     color: white;
     background-color:#3C7B19;
+    text-align: left;
 }
 p{
-    justify-content: center;
+    text-align: center;
     font-family: Arial;
     color: black;
     font-size: 14pt;
 }
 ul li{
-    justify-content: left;
+    text-align: left;
     font-family: Arial;
     color: black;
     font-size: 12pt;
