@@ -1,0 +1,36 @@
+article figure img{
+    width: 600px;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+h1{
+    justify-content: center;
+    font-family: Helvetica;
+    font-size: 24pt;
+    color: white;
+    background-color: #3C7B19;
+}
+h2{
+    font-family: Helvetica;
+    font-style: italic;
+    font-size: 16pt;
+    color: white;
+    background-color:#3C7B19;
+}
+p{
+    justify-content: center;
+    font-family: Arial;
+    color: black;
+    font-size: 14pt;
+}
+ul li{
+    justify-content: left;
+    font-family: Arial;
+    color: black;
+    font-size: 12pt;
+    background-color: #D9F3CA;
+}
