@@ -6,9 +6,9 @@ article figure img{
     margin-top: 40px;
     margin-bottom: 40px;
     justify-content: center;
-    border-top: #3C7B19;
-    border-bottom:#3C7B19;
-    border: 5px;
+    text-align: center;
+    border: 5px solid #3C7B19;
+    padding: 10px;
 }
 h1{
     text-align: center;
@@ -29,7 +29,7 @@ p{
     text-align: center;
     font-family: Arial;
     color: black;
-    font-size: 14pt;
+    font-size: 12pt;
 }
 ul li{
     text-align: left;
