@@ -10,14 +10,14 @@ article figure img{
     border: 5px solid #3C7B19;
     padding: 10px;
 }
-h1{
+h1#article-title{
     text-align: center;
     font-family: Helvetica;
     font-size: 24pt;
     color: white;
     background-color: #3C7B19;
 }
-h2{
+h2.section-header{
     font-family: Helvetica;
     font-style: italic;
     font-size: 16pt;
