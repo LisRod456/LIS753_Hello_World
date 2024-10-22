@@ -3,9 +3,8 @@ article figure img{
     height: auto;
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
     text-align: center;
     border: 5px solid #3C7B19;
     padding: 10px;
@@ -30,6 +29,7 @@ p{
     font-family: Arial;
     color: black;
     font-size: 12pt;
+    background-color: #D9F3CA; 
 }
 ul li{
     text-align: left;
@@ -37,4 +37,10 @@ ul li{
     color: black;
     font-size: 12pt;
     background-color: #D9F3CA;
+}
+footer#contact-info{
+    color: white;
+    background-color:#3C7B19;
+    font-family: Helvetica;
+    font-size: 12pt;
 }
