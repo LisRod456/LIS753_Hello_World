@@ -8,6 +8,7 @@ article figure img{
     text-align: center;
     border: 5px solid #3C7B19;
     padding: 10px;
+    float: right;
 }
 h1#article-title{
     text-align: center;
@@ -37,6 +38,12 @@ ul li{
     color: black;
     font-size: 12pt;
     background-color: #D9F3CA;
+}
+ul li:first-child{
+    border-top: 3px solid #3C7B19;
+}
+ul li:last-child{
+    border-bottom: 3px solid #3C7B19;
 }
 footer#contact-info{
     color: white;
