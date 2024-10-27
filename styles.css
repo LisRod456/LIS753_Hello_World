@@ -4,7 +4,6 @@ h1#article-title{
     font-family: Lucida;
     font-style: italic;
     text-align: center;
-    font-size: 40pt;
 }
 p{
     background-color: #F9E5EE;
@@ -12,16 +11,8 @@ p{
     font-family: Lucida;
     font-style: italic;
     text-align: center;
-    font-size: 14pt;
 }
-@media all and (min-width: 376px) {
-    ul{
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-    }
-}
+
 article figure img{
     max-width: 100%;
     height: auto;
@@ -37,7 +28,6 @@ a{
 }
 ul li a{
     text-decoration: none;
-    font-size: 20pt;
     font-weight: bold;
     border-left: 1px solid #d44986;
     border-right: 1px solid #d44986;
@@ -46,6 +36,40 @@ ul li a:hover{
     text-decoration: underline;
     border-bottom: 3px solid #d44986;
 }
+
+@media all and (min-width: 376px) {
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+
+@media all and (min-width: 376px) {
+    h1#article-title{
+        font-size: 20pt;
+    }
+    p{
+        font-size: 10pt;
+    }
+    ul li a{
+        font-size: 10pt;
+    }
+}
+
+@media all and (min-width: 768px) {
+    h1#article-title{
+        font-size: 40pt;
+    }
+    p{
+        font-size: 14pt;
+    }
+    ul li a{
+        font-size: 20pt; 
+    }
+}
+
 ul{
     list-style: none;
     justify-content: center;
