@@ -56,6 +56,9 @@ ul li a:hover{
     ul li a{
         font-size: 10pt;
     }
+    h2.section-header{
+        font-size: 14pt;
+    }
 }
 
 @media all and (min-width: 768px) {
@@ -68,6 +71,9 @@ ul li a:hover{
     ul li a{
         font-size: 20pt; 
     }
+    h2.section-header{
+        font-size: 20pt;
+    }
 }
 
 ul{
@@ -76,7 +82,6 @@ ul{
     gap: 20px;
 }
 h2.section-header{
-    font-size: 20pt;
     color: white;
     background-color:#d44986;
     font-family: Lucida;
