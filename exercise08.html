@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="eng-US">
+<head>
+    <title>My "Hello, World" page</title>
+    <link ref="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="page-title">La Vie En Rose</h1>
+<div class="container">
+  <div id="message">Welcome to my page! <button onclick="document.getElementById('message').style.display='none';">Dismiss</button>
+  </div>
+  <div class="container">
+    <button onclick="darkMode ()">Toggle dark mode</button></div>
+<body>
+  <p>
+    <figure>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh_n4G9Tzx5XTNEZ3mroTH7RlrhLy1imQ28A&s">
+      <figcaption>A purple and pink rose</figcaption>
+    </figure></p>
+  <p>Hold me close and hold me fast. The magic spell you cast. This is <strong>la vie en rose.</strong></p>
+  <p>When you kiss me, heaven sighs. And though I close my eyes, I see <strong>la vie en rose.</strong></p>
+  <p>When you press me to your heart, I'm in a world apart. A world where roses bloom. And when you speak, angels sing from above. Everyday words seem to turn into love songs.</p>
+  <p>Give your heart and soul to me, and life will always be <strong>la vie en rose.</strong></p>
+  <p>-Lyric Adaptation by Louis Armstrong, 1950</p>
+  <script>
+    function darkMode() {
+  document.body.classList.toggle('dark-mode');
+    }
+  </script>
+</body>
+</html>
