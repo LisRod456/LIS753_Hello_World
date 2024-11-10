@@ -87,3 +87,26 @@ h2.section-header{
     font-family: Lucida;
     text-align: center;
 }
+body.dark-mode {
+    background: #000000;
+    color: #FFFFFF;
+  }
+body.dark-mode button {
+    background-color: #FFFFFF;
+    }
+#message {
+    color: black;
+    background-color: #CBFDFD;
+    text-align: center;
+    font-family: Lucida;
+    padding: 10 px 30 px;
+    margin: 12px 0;
+    border-radius: 4px;
+    border: 1px solid #099E8A;
+    opacity: 1;
+    transition: opacity .2s ease;
+    }
+#message.dismissed {
+    opacity: 0;
+    height: 0;
+    }
